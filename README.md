@@ -4,7 +4,7 @@
 
 In this project, we were tasked with creating classification models to predict the subreddit of origin based on documents of text scraped from posts on various subreddits. While my initial goal was to use natural language processing techniques to determine the differentiators between the subreddits for the two most popular sports leagues in the United States, the NFL and the NBA. However, after my initial assessment, I wanted to dive deeper, and compare these leagues to their collegiate equivalents to see how they differentiate in their language.
 
-My goal in analyzing the language in all four of these subreddits was to determine which topics or trends separate the Reddit discussions of these leagues the most. I will look at the most important word features for each model and asses the performance of each model to draw my conclusions.
+My goal in analyzing the language in all four of these subreddits was to determine which topics or trends separate the Reddit discussions of these leagues the most. I will look at the most important word features for each model and assess the performance of each model to draw my conclusions.
 
 ### Executive Summary
 
@@ -30,7 +30,7 @@ Finally, I ran the same TF-IDF Vectorizer and SVM Classifier on the data collect
 
 ### Data Dictionary
 
-You may find description of the data found in the Reddit API .json in the API's [documentation](https://github.com/reddit-archive/reddit/wiki/JSON).
+You may find descriptions of the data found in the Reddit API .json in the API's [documentation](https://github.com/reddit-archive/reddit/wiki/JSON).
 
 I used three datasets for the four subreddits. All having the same features:
 
